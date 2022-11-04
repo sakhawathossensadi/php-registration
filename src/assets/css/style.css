@@ -1,0 +1,83 @@
+/*======
+    styles
+======*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*======
+    CSS variables
+======*/
+:root {
+    --colorWhite: #fff;
+    --colorBlack: #000;
+    --colorMain: #F36;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#nav{
+    width: 100%;
+    height: 8rem;
+    line-height: 8rem;
+    background: var(--colorWhite);
+    display: flex;
+    padding: 0 0;
+    box-shadow: 0 0 5rem .5rem rgba(0, 0, 0, .05);
+}
+
+.left-ul li {
+    list-style: none;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.right-ul {
+    display:  flex;
+}
+
+.right-ul li {
+    list-style: none;
+}
+
+.right-ul li a {
+    text-decoration: none;
+    margin-right: 1.2rem;
+}
+
+.empty {
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    color: var(--colorWhite);
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 0;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 3rem;
+    outline: none;
+    padding: 1.2rem 2.1rem;
+    letter-spacing: 1px;
+}
+
+.btn-login {
+    background: var(--colorMain);
+}
+
+.btn-signup {
+    border-color: var(--colorMain);
+    color: var(--colorMain);
+}
