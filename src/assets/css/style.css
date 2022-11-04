@@ -81,3 +81,43 @@ body {
     border-color: var(--colorMain);
     color: var(--colorMain);
 }
+
+#form {
+    margin: 2rem 2rem 3rem 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-section {
+    width: 45rem;
+}
+
+.form-header {
+    margin-bottom: 1rem;
+}
+
+.form-header h2 {
+    font-size: 3.5rem;
+}
+
+.group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #434C5E;
+    margin-bottom: .5rem;
+}
+
+.control {
+    width: 100%;
+    display: block;
+    padding: .5rem;
+    border-radius: 3px;
+    border: 1px solid #D4D9E2;
+    font-size: 1rem;
+    outline: none;
+}
