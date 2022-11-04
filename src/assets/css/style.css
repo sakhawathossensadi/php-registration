@@ -24,8 +24,8 @@ body {
 
 #nav{
     width: 100%;
-    height: 8rem;
-    line-height: 8rem;
+    height: 7rem;
+    line-height: 6rem;
     background: var(--colorWhite);
     display: flex;
     padding: 0 0;
@@ -120,4 +120,23 @@ body {
     border: 1px solid #D4D9E2;
     font-size: 1rem;
     outline: none;
+}
+
+/*======
+    Media Query
+=====*/
+
+@media(max-width: 765px){
+    #nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .form-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .form-section {
+        width: 100%;
+    }
 }
