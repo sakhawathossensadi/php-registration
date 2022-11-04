@@ -1,0 +1,17 @@
+{
+    "name": "learnhub/datamanagemant",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sakhawathossensadi",
+            "email": "newtonss919@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "learnhub\\Datamanagemant\\": "src/"
+        }
+    }
+}
