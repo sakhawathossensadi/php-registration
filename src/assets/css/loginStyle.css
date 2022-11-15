@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorWhite: #fff;
+    --colorBlack: #000;
+    --colorMain: #F36;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    height: 7rem;
+    line-height: 6rem;
+    padding: 0 0;
+    background: var(--colorWhite);
+    box-shadow: 0 0 5rem .5rem rgba(0, 0, 0, .05);
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.left-nav li {
+    list-style: none;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.right-nav li {
+    list-style:  none;
+}
+
+.right-nav li a{
+    text-decoration: none;
+    margin-right: 1.2rem;
+}
+
+.empty {
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.2rem 2.1rem;
+    color: var(--colorWhite);
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3rem;
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    line-height: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: var(--colorMain);
+}
+
+.btn-signup {
+    color: var(--colorMain);
+    border-color: var(--colorMain);
+}
+
+#form {
+    margin: 2rem 2rem 3rem 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-section {
+    width: 45rem;
+}
+
+.form-header {
+    margin-bottom: 1rem;
+}
+
+.form-header h2 {
+    font-size: 3.5rem;
+}
+
+.group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #434C5E;
+    margin-bottom: .5rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.forgotPassword {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.forgotPassword a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #434C5E;
+}
+
+.control {
+    width: 100%;
+    display: block;
+    padding: .5rem;
+    border-radius: 3px;
+    border: 1px solid #D4D9E2;
+    font-size: 1rem;
+    outline: none;
+}
+
+/*======
+    Media Query
+=====*/
+
+@media(max-width: 765px){
+    #nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .form-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+}
